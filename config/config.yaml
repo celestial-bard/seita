@@ -1,0 +1,47 @@
+defaults:
+  - hydra: default
+  - datamodule: av2
+  # - model: reconstructor
+  # - model: generator
+  - model: constrainer
+  # - model: masked_ae
+  - _self_
+
+seed: 42
+# monitor: val_minADE6
+monitor: val_loss
+save_top_k: 10
+
+data_root: datasets/av2
+checkpoint: 
+# checkpoint: outputs/seita-reconstructor/2024-10-11/14-20-16/checkpoints/last.ckpt
+# checkpoint: outputs/seita-masked_ae/2024-10-09/17-23-24/checkpoints/last.ckpt
+# pretrained_weights: outputs/seita-masked_ae/2024-10-09/17-23-24/checkpoints/last.ckpt
+pretrained_weights:
+output: ${model.name}-${model.phase}
+
+# trainer
+num_workers: 16
+gpus: 2
+sync_bn: true
+batch_size: 64
+epochs: 30
+warmup_epochs: 5
+# batch_size: 32
+# epochs: 60
+# warmup_epochs: 10
+
+# optimizer
+lr: 0.001
+weight_decay: 1e-4
+gradient_clip_val: 5
+gradient_clip_algorithm: norm
+
+limit_train_batches:
+limit_val_batches:
+limit_test_batches:
+log_model: all
+test: false
+
+wandb: online
+# wandb: offline

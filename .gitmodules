@@ -1,0 +1,15 @@
+[submodule "acknowledgement/forecast-mae"]
+	path = acknowledgement/forecast-mae
+	url = https://github.com/jchengai/forecast-mae.git
+[submodule "acknowledgement/DeMo"]
+	path = acknowledgement/DeMo
+	url = https://github.com/fudan-zvg/DeMo.git
+[submodule "acknowledgement/QCNet"]
+	path = acknowledgement/QCNet
+	url = https://github.com/ZikangZhou/QCNet.git
+[submodule "acknowledgement/AdvTrajectoryPrediction"]
+	path = acknowledgement/AdvTrajectoryPrediction
+	url = https://github.com/zqzqz/AdvTrajectoryPrediction.git
+[submodule "acknowledgement/SA-Attack"]
+	path = acknowledgement/SA-Attack
+	url = https://github.com/eclipse-bot/SA-Attack.git

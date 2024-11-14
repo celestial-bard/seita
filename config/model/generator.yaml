@@ -1,0 +1,17 @@
+name: seita
+phase: generator
+
+target:
+  _target_: trainers.gen_trainer.Trainer
+  dim: 128
+  encoder_depth: 1
+  num_heads: 8
+  traj_len: 50
+  drop_path: 0.2
+  loss_scale: 5
+  disc_ckpt_pth: exp_methods/checkpoints/model_forecast_finetune.ckpt
+  pretrained_weights: ${pretrained_weights}
+  lr: ${lr}
+  weight_decay: ${weight_decay}
+  epochs: ${epochs}
+  warmup_epochs: ${warmup_epochs}

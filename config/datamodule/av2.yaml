@@ -1,0 +1,11 @@
+_target_: process.av2_datamodule.Av2DataModule
+
+data_root: ${data_root}
+# data_folder: forecast-mae
+data_folder: processed
+train_batch_size: ${batch_size}
+val_batch_size: ${batch_size}
+test_batch_size: ${batch_size}
+shuffle: True
+num_workers: ${num_workers}
+pin_memory: True
