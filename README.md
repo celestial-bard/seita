@@ -1,5 +1,5 @@
 # ㄙㄟㄊㄚ - SeiTA
-Suitable, Efficient and Intended Trajectory Attacker. Official code for *Generative Attackers Ruin Your Forecast? SeiTA: Targeted, Efficient & Realistic Adversarial Attacker for Trajectory Prediction in Autonomous Driving*.
+Suitable, Efficient and Intended Trajectory Attacker. Official code for *Generative Attackers Ruin Your Forecast: Learning-Based Plug-n-Play Trajectory Prediction Attack in Autonomous Driving*.
 
 ## Usage 
 
