@@ -1,5 +1,5 @@
 # ㄙㄟㄊㄚ - SeiTA
-Suitable, Efficient and Intended Trajectory Attacker. Official code for *Generative Attackers Ruin Your Forecast: Learning-Based Plug-n-Play Trajectory Prediction Attack in Autonomous Driving*.
+Suitable, Efficient and Intended Trajectory Attacker. Official code for *Generative Attackers Ruin Your Forecast: Learning-Based Plug-n-Play Trajectory Prediction Attack on Autonomous Driving*.
 
 ## Usage 
 
@@ -99,4 +99,4 @@ You'd attack the data first, then go to `exp_methods` and run their validate scr
 
 ## Acknowledgement
 
-The code is inspired by [Forecast-MAE](https://github.com/jchengai/forecast-mae), [QCNet](https://github.com/ZikangZhou/QCNet), and [AdvTrajectoryPrediction](https://github.com/zqzqz/AdvTrajectoryPrediction). Many thanks for their outstanding work.
+The code is inspired by [Forecast-MAE](https://github.com/jchengai/forecast-mae), [QCNet](https://github.com/ZikangZhou/QCNet), [unlim](https://github.com/microsoft/unilm), and [AdvTrajectoryPrediction](https://github.com/zqzqz/AdvTrajectoryPrediction). Many thanks for their outstanding work.
