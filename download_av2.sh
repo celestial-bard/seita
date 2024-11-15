@@ -6,7 +6,7 @@
 # s3://argoverse/datasets/av2/motion-forecasting/
 # s3://argoverse/datasets/av2/tbv/
 
-# motion-forecasting; /data/zyq/datasets
+# motion-forecasting; datasets
 DATASET_NAME="$1"  # sensor, lidar, motion-forecasting or tbv.
 TARGET_DIR="$2"    # Target directory on your machine.
 
